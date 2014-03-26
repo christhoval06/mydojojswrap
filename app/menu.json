@@ -1,0 +1,25 @@
+{
+    "success": true,
+    "menu": [
+        {
+            "item": "inicio",
+            "disabled": false,
+            "id": "inicio",
+            "subitems": [
+                {
+                    "item": "cambiar de usuario",
+                    "disabled": false,
+                    "id": "cambiausuario",
+                    "ruta": "/login/cambiausuario",
+                    "subitems": []
+                }, {
+                    "item": "salida",
+                    "disabled": false,
+                    "id": "salida",
+                    "ruta": "/login/logout",
+                    "subitems": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,355 @@
+{
+    "success": true,
+    "menu": [
+        {
+            "item": "inicio",
+            "disabled": false,
+            "id": "inicio",
+            "subitems": [
+                {
+                    "item": "cambiar de usuario",
+                    "disabled": false,
+                    "id": "cambiausuario",
+                    "ruta": "/login/cambiausuario",
+                    "subitems": []
+                }, {
+                    "item": "salida",
+                    "disabled": false,
+                    "id": "salida",
+                    "ruta": "/login/logout",
+                    "subitems": []
+                }
+            ]
+        }, {
+            "item": "compras",
+            "subitems": [
+                 {
+                    "item": "orden de compra",
+                    "alias": "ordendecompra",
+                    "subitems": [
+                        {
+                            "item": "agregar",
+                            "fnt": "agregar"
+                        },{
+                            "item": "lista",
+                            "fnt": "lista"
+                        }
+                    ]
+                },{
+                    "item": "factura de compras",
+                    "alias": "factcompras",
+                    "subitems": [
+                        {
+                            "item": "agregar",
+                            "fnt": "agregar"
+                        },{
+                            "item": "lista",
+                            "fnt": "lista"
+                        }
+                    ]
+                },{
+                    "item": "orden de salida",
+                    "alias": "factsalida",
+                    "subitems": [
+                        {
+                        	"item": "agregar",
+		                    "fnt": "agregar"
+		                 },{
+		                    "item": "lista",
+		                    "fnt": "lista"
+		                 },{
+		                    "item": "destinos",
+		                    "alias": "clientesinternos",
+		                    "subitems": [
+		                        {
+		                            "item": "agregar",
+		                            "fnt": "agregar"
+		                        },{
+		                            "item": "lista",
+		                            "fnt": "lista"
+		                        }
+		                    ]
+		                },{
+		                    "item": "bodegas",
+		                    "alias": "bodegas",
+		                    "disabled": true,
+		                    "subitems": [
+		                        {
+		                            "item": "agregar",
+		                            "fnt": "agregar"
+		                        },{
+		                            "item": "lista",
+		                            "fnt": "lista"
+		                        }
+		                    ]
+		                }
+                    ]
+                },{
+                    "item": "requisiciones",
+                    "alias": "requisiciones",
+                    "subitems": [
+                        {
+		                    "item": "agregar",
+		                    "fnt": "agregar"
+		                 },{
+		                    "item": "lista",
+		                    "fnt": "lista"
+		                 },{
+		                    "item": "clientes",
+		                    "alias": "clientesrequisicion",
+		                    "subitems": [
+		                        {
+		                            "item": "agregar",
+		                            "fnt": "agregar"
+		                        },{
+		                            "item": "lista",
+		                            "fnt": "lista"
+		                        }
+		                    ]
+		                },{
+		                    "item": "departamentos",
+		                    "alias": "departamentos",
+		                    "subitems": [
+		                        {
+		                            "item": "agregar",
+		                            "fnt": "agregar"
+		                        },{
+		                            "item": "lista",
+		                            "fnt": "lista"
+		                        }
+		                    ]
+		                }
+                    ]
+                },{
+                    "item": "configuración",
+                    "subitems": [
+                        {
+		                    "item": "lugares de entrega",
+		                    "alias": "lugaresentrega",
+		                    "subitems": [
+		                        {
+		                            "item": "agregar",
+		                            "fnt": "agregar"
+		                        },{
+		                            "item": "lista",
+		                            "fnt": "lista"
+		                        }
+		                    ]
+		                },{
+		                    "item": "Pago",
+		                    "subitems": [
+		                        {
+				                    "item": "terminos de pago",
+				                    "alias": "terminospago",
+				                    "subitems": [
+				                        {
+				                            "item": "agregar",
+				                            "fnt": "agregar"
+				                        },{
+				                            "item": "lista",
+				                            "fnt": "lista"
+				                        }
+				                    ]
+				                },{
+				                    "item": "formas de pago",
+				                    "alias": "formasdepago",
+				                    "subitems": [
+				                        {
+				                            "item": "agregar",
+				                            "fnt": "agregar"
+				                        },{
+				                            "item": "lista",
+				                            "fnt": "lista"
+				                        }
+				                    ]
+				                }
+		                    ]
+		                }
+                    ]
+                }
+                
+            ]
+        }, {
+            "item": "contabildad",
+            "disabled": false,
+            "id": "contabildad",
+            "subitems": [
+            	{
+                    "item": "diario general",
+                    "alias": "diariogeneral",
+                    "subitems": [
+                        {
+                            "item": "agregar",
+                            "fnt": "agregar"
+                        },{
+                            "item": "lista",
+                            "fnt": "lista"
+                        }
+                    ]
+                }, {
+                    "item": "balance inicial",
+                    "alias": "balanceinicial",
+                    "subitems": [
+                        {
+                            "item": "agregar",
+                            "fnt": "agregar"
+                        },{
+                            "item": "lista",
+                            "fnt": "lista"
+                        }
+                    ]
+                }
+			]
+        }, {
+            "item": "configuración",
+            "id": "configuracion",
+            "subitems": [
+                {
+                    "item": "empresas",
+                    "alias": "empresas",
+                    "subitems": [
+                        {
+                            "item": "agregar",
+                            "fnt": "agregar"
+                        },{
+                            "item": "lista",
+                            "fnt": "lista"
+                        },{
+		                    "item": "sucursales",
+		                    "alias": "sucursales",
+		                    "subitems": [
+		                        {
+		                            "item": "agregar",
+		                            "fnt": "agregar"
+		                        },{
+		                            "item": "lista",
+		                            "fnt": "lista"
+		                        }
+		                    ]
+		                }
+                    ]
+                },{
+                    "item": "jobs",
+                    "alias": "jobs",
+                    "subitems": [
+                        {
+                            "item": "agregar",
+                            "fnt": "agregar"
+                        },{
+                            "item": "lista",
+                            "fnt": "lista"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "item": "cuentas",
+            "alias": "cuentas",
+            "subitems": [
+                {
+                    "item": "agregar",
+                    "fnt": "agregar"
+                },{
+                    "item": "lista",
+                    "fnt": "lista"
+                },{
+                    "item": "categorias",
+                    "alias": "cuentascategorias",
+                    "subitems": [
+                        {
+                            "item": "agregar",
+                            "fnt": "agregar"
+                        },{
+                            "item": "lista",
+                            "fnt": "lista"
+                        }
+                    ]
+                },{
+                    "item": "subcategorias",
+                    "alias": "cuentassubcategorias",
+                    "subitems": [
+                        {
+                            "item": "agregar",
+                            "fnt": "agregar"
+                        },{
+                            "item": "lista",
+                            "fnt": "lista"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "item": "productos",
+            "alias": "productos",
+            "subitems": [
+                {
+                    "item": "agregar",
+                    "fnt": "agregar"
+                },{
+                    "item": "lista",
+                    "fnt": "lista"
+                },{
+                    "item": "proveedores",
+                    "alias": "proveedores",
+                    "subitems": [
+                        {
+                            "item": "agregar",
+                            "fnt": "agregar"
+                        },{
+                            "item": "lista",
+                            "fnt": "lista"
+                        }
+                    ]
+                },{
+                    "item": "categorias",
+                    "alias": "categorias",
+                    "subitems": [
+                        {
+                            "item": "agregar",
+                            "fnt": "agregar"
+                        },{
+                            "item": "lista",
+                            "fnt": "lista"
+                        }
+                    ]
+                },{
+                    "item": "subcategorias",
+                    "alias": "subcategorias",
+                    "subitems": [
+                        {
+                            "item": "agregar",
+                            "fnt": "agregar"
+                        },{
+                            "item": "lista",
+                            "fnt": "lista"
+                        }
+                    ]
+                },{
+                    "item": "clases",
+                    "alias": "clases",
+                    "subitems": [
+                        {
+                            "item": "agregar",
+                            "fnt": "agregar"
+                        },{
+                            "item": "lista",
+                            "fnt": "lista"
+                        }
+                    ]
+                },{
+                    "item": "marcas",
+                    "alias": "marcas",
+                    "subitems": [
+                        {
+                            "item": "agregar",
+                            "fnt": "agregar"
+                        },{
+                            "item": "lista",
+                            "fnt": "lista"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
